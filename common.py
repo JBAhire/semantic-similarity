@@ -36,5 +36,3 @@ class similarity_test:
         sick_all = sick_train.append(sick_test).append(sick_dev)
 
         return sick_all
-
-    def 
