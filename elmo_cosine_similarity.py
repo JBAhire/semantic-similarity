@@ -24,7 +24,7 @@ class elmo_semantic:
         return similarity
 
 if __name__ == "__main__":
-    text1 = "I am good."
+    text1 = "I am really good."
     text2 = "I am not bad." 
     elmo = elmo_semantic()
     elmo.predict_similarity(text1, text2)

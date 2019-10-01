@@ -18,4 +18,6 @@ We're using following embeddings:
 5. AllenNLP
 6. Spcay
 
+# Steps
+``` pip install -r requirements.py ```
 
