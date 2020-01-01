@@ -36,6 +36,7 @@ for text1, text2, text3 in zip(sent_1_list, sent_2_list, sim_list):
     elmo_similarity.append(e_similarity)
     bert_similarity.append(b_similarity)
     spacy_similarity.append(s_similarity)
+    print('Similarity measures are as follows:')
     print (' elmo: '+ str(e_similarity) + '|' + ' flair: ' + str(f_similarity) + '|' + ' bert: ' + str(b_similarity) + '|' + ' Spacy: ' +'[[' +str(s_similarity)+']]'+ '|' + ' human predicted: ' +'[[' +str(text3)+']]')
     print("======================================================================================")
 
